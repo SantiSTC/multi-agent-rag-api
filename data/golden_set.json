@@ -1,0 +1,22 @@
+[
+    {
+      "pregunta": "¿Qué club es el máximo ganador histórico de la Copa Libertadores y cuántos títulos tiene?",
+      "documento_id_esperado": "copa_libertadores.md"
+    },
+    {
+      "pregunta": "¿En qué situaciones no se sanciona el fuera de juego?",
+      "documento_id_esperado": "regla_fuera_de_juego.md"
+    },
+    {
+      "pregunta": "¿Cuáles son las cuatro situaciones que el VAR puede revisar?",
+      "documento_id_esperado": "var_videoarbitraje.pdf"
+    },
+    {
+      "pregunta": "¿Qué era el líbero en el catenaccio y quién lo perfeccionó en el Inter de Milán?",
+      "documento_id_esperado": "formaciones_tacticas.pdf"
+    },
+    {
+      "pregunta": "¿Contra qué selección jugó Argentina la final del Mundial de 1978 y con qué resultado?",
+      "documento_id_esperado": "mundiales_argentina.json"
+    }
+  ]

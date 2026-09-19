@@ -1,0 +1,46 @@
+services:
+  redis:
+    image: redis:8-alpine
+    ports:
+      - "6379:6379"
+    command: ["redis-server", "--save", "60", "1", "--appendonly", "yes"]
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  ingest:
+    build: .
+    env_file: .env
+    volumes:
+      - ./data:/srv/data
+      - hf-cache:/srv/.cache/huggingface
+    command: ["python", "-m", "app.rag.ingest"]
+
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file: .env
+    environment:
+      REDIS_URL: redis://redis:6379/0
+    volumes:
+      - ./data:/srv/data
+      - hf-cache:/srv/.cache/huggingface
+    depends_on:
+      redis:
+        condition: service_healthy
+      ingest:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+
+volumes:
+  redis-data:
+  hf-cache:

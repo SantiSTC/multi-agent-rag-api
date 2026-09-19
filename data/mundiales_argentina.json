@@ -1,0 +1,31 @@
+{
+  "titulo": "La selección argentina en las Copas del Mundo",
+  "categoria": "selecciones",
+  "autor": "Apuntes de fútbol",
+  "secciones": [
+    {
+      "subtitulo": "Panorama general",
+      "contenido": "La selección argentina de fútbol es una de las más laureadas de la historia de la Copa Mundial de la FIFA. Ha conquistado el torneo en tres ocasiones, en 1978, 1986 y 2022, y ha perdido otras tres finales, en 1930, 1990 y 2014. Solo Brasil, Alemania e Italia acumulan más títulos mundiales, y únicamente Alemania ha disputado más finales que Argentina. La Asociación del Fútbol Argentino, la AFA, es el organismo que rige a la selección desde su fundación en 1893."
+    },
+    {
+      "subtitulo": "Uruguay 1930: la primera final",
+      "contenido": "Argentina llegó a la final del primer Mundial de la historia, disputado en Uruguay en 1930. El equipo dirigido por Francisco Olazar y Juan José Tramutola superó la fase de grupos y goleó a Estados Unidos por seis a uno en semifinales. En la final, jugada en el Estadio Centenario de Montevideo ante casi setenta mil espectadores, el anfitrión Uruguay remontó un dos a uno adverso y se impuso por cuatro a dos. Guillermo Stábile, delantero argentino, terminó como máximo goleador del torneo con ocho tantos."
+    },
+    {
+      "subtitulo": "Argentina 1978: el primer título",
+      "contenido": "El Mundial de 1978 se disputó en Argentina bajo la dictadura militar, un contexto político que sigue marcando la memoria del torneo. El equipo dirigido por César Luis Menotti venció a Países Bajos por tres a uno en la final del Estadio Monumental, con dos goles de Mario Alberto Kempes, que además fue el goleador del campeonato con seis anotaciones. Kempes era el único jugador del plantel que militaba en el fútbol europeo, en el Valencia."
+    },
+    {
+      "subtitulo": "México 1986: el Mundial de Maradona",
+      "contenido": "La Copa de 1986 es recordada como la consagración individual de Diego Armando Maradona. En cuartos de final, contra Inglaterra, convirtió dos goles que quedaron en la historia: el primero con la mano, bautizado la Mano de Dios, y el segundo tras una carrera de más de cincuenta metros eludiendo a media defensa inglesa, elegido posteriormente como el mejor gol del siglo. En la final del Estadio Azteca, Argentina venció a Alemania Federal por tres a dos con un gol decisivo de Jorge Burruchaga tras asistencia de Maradona. El entrenador era Carlos Salvador Bilardo."
+    },
+    {
+      "subtitulo": "Italia 1990 y Brasil 2014: las finales perdidas",
+      "contenido": "Argentina volvió a la final en 1990, otra vez frente a Alemania Federal y otra vez con Maradona y Bilardo, pero esta vez cayó por uno a cero con un penal convertido por Andreas Brehme a falta de cinco minutos. En 2014, en el Estadio Maracaná de Río de Janeiro, el equipo de Alejandro Sabella perdió por uno a cero ante Alemania con un gol de Mario Götze en el tiempo suplementario. Lionel Messi recibió el Balón de Oro al mejor jugador de ese torneo, una distinción que resultó polémica dada la derrota."
+    },
+    {
+      "subtitulo": "Qatar 2022: la tercera estrella",
+      "contenido": "El Mundial de Qatar 2022 cerró una espera de treinta y seis años. Argentina comenzó perdiendo por dos a uno ante Arabia Saudita en el debut, pero se recuperó y llegó invicta hasta la final. El partido decisivo contra Francia, en el Estadio Lusail, terminó tres a tres tras la prórroga, con dos goles de Lionel Messi y tres de Kylian Mbappé, que se convirtió en el segundo futbolista en marcar un triplete en una final mundialista. Argentina se impuso cuatro a dos en la tanda de penales, con el arquero Emiliano Martínez atajando el remate de Kingsley Coman. Lionel Scaloni era el director técnico y Messi obtuvo su segundo Balón de Oro del torneo."
+    }
+  ]
+}
