@@ -139,14 +139,6 @@ En `screenshots/`:
 - `02-traza-detalle.png`: una ejecución abierta: `human_approval` → `research_agent` (con sus llamadas a `knowledge_base_search`) → `supervisor` → `analyst_agent` (con `calculator`).
 - `03-hitl.png`: un job pausado en `human_approval` con `interrupted: true`, esperando el `POST /tasks/{id}/approve`.
 
-## Cosas que aprendí en el camino
-
-Los modelos gratuitos no siempre respetan la salida estructurada: a veces responden en texto en vez de llamar a la función. El supervisor y el validador tienen un reintento y, si sigue fallando, un fallback determinista (si no hay evidencia va al investigador, si no hay análisis al analista, si hay ambos al validador), así el grafo nunca se cae por eso.
-
-Algunos proveedores rechazan restricciones como `minLength` o `maximum` en el esquema JSON de las herramientas. Moví esas validaciones a `field_validator` de Pydantic: se siguen validando pero no aparecen en el esquema que ve el modelo.
-
-`create_react_agent` de `langgraph.prebuilt` quedó deprecado en LangGraph 1.x; los especialistas usan `create_agent` de `langchain.agents`. Y `BM25Retriever` vivía en `langchain-community`, que también está en sunset, así que el BM25 va directo con `rank_bm25` y la fusión la hago a mano.
-
 ---
 
 Autor: **Santiago Iannello**
